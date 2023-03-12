@@ -24,7 +24,7 @@ jobs:
     - name: Update READMEs
       run: |
         chmod +x update_readmes.sh
-        ./update_readmes.sh > README.md
+        ./update_readmes.sh > index.md
 
     - name: Commit changes
       run: |
