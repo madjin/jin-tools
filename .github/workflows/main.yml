@@ -16,7 +16,7 @@ jobs:
 
     - name: Install screenshot-glb
       uses: bahmutov/npm-install@v1
-      run: npm install --save @shopify/screenshot-glb
+        npm install --save @shopify/screenshot-glb
 
     - name: Take screenshots
       run: |
